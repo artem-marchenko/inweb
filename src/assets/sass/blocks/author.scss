@@ -1,0 +1,14 @@
+.author {
+    position: absolute;
+    right: 5rem;
+    bottom: 0;
+    z-index: 3;
+
+    @media (max-width: 1330px) {
+        right: 2rem;
+    }
+
+    @media (max-width: 750px) {
+        display: none;
+    }
+}
